@@ -2,4 +2,4 @@
 
 install:
 	chmod +x ./linfetch
-	mv ./linfetch /usr/local/bin/
+	cp ./linfetch /usr/local/bin/
