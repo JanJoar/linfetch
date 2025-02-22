@@ -1,0 +1,39 @@
+#+Linfetch
+#+author: Joar von Arndt
+
+This is a fork of one of [[https://github.com/aeghn][aeghn]]'s tools named =cfetch=. I find that name overused and misleading (because it isn't written in C). I have made some special personal changes, but the file should be fairly easy to understand (it was for me at least).
+
+The output should look something like below:
+
+#+BEGIN_EXAMPLE
+* Hardware 
+  CPU         │ AMD Ryzen 5 3600 6-Core Processor
+  GPU         │ NVIDIA Corporation TU116 [GeForce GTX 1650 SUPER] (rev a1)
+  MEMORY      │ 4415/15853 MB
+  DISK        │ /dev/nvme0n1p2 468G 432G 13G 98% /
+              │ /dev/nvme0n1p1 511M 57M 455M 12% /boot
+
+* System 
+  OS          │ Arch Linux
+  KERNEL      │ Linux 6.13.3-arch1-1 x86_64
+  VERSION     │ #1 SMP PREEMPT_DYNAMIC Mon, 17 Feb 2025 17:42:11 +0000
+  ROLLING     │ 2025-02-22
+  UPTIME      │ 23 hours, 42 minutes
+
+* Tools 
+  BSPWM       │ 0.9.10
+  PACMAN      │ 1578, 19(foreign)
+  QUICKLISP   │ 11848
+  BROWSER     │ Mozilla Firefox 135.0.1
+  TERMINAL    │ kitty 0.39.1 created by Kovid Goyal
+  GNU EMACS   │ GNU Emacs 29.4
+  SHELL       │ fish, version 3.7.1
+
+* Languages 
+  GNU BASH    │ GNU bash, version 5.2.37(1)-release (x86_64-pc-linux-gnu)
+  GNU GCC     │ gcc (GCC) 14.2.1 20250207
+  LISP        │ SBCL 2.5.0
+  PYTHON      │ Python 3.13.2
+  GO          │ go version go1.24.0 linux/amd64
+  JAVA        │ openjdk 21.0.6 2025-01-21
+#+END_EXAMPLE
