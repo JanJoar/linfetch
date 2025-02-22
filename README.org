@@ -1,6 +1,8 @@
 #+title: Linfetch
 #+author: Joar von Arndt
 
+* Summary
+
 This is a fork of one of [[https://github.com/aeghn][aeghn]]'s tools named =cfetch=. I find that name overused and misleading (because it isn't written in C). I have made some special personal changes, but the file should be fairly easy to understand (it was for me at least).
 
 The output should look something like below:
@@ -37,3 +39,6 @@ The output should look something like below:
   GO          │ go version go1.24.0 linux/amd64
   JAVA        │ openjdk 21.0.6 2025-01-21
 #+END_EXAMPLE
+
+* Installation
+The program is just a single self-contained shell script, but running ~sudo make install~ makes it executable and moves it into =$PATH= for you. It can then be run using ~linfetch~.
