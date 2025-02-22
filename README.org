@@ -1,4 +1,4 @@
-#+Linfetch
+#+title: Linfetch
 #+author: Joar von Arndt
 
 This is a fork of one of [[https://github.com/aeghn][aeghn]]'s tools named =cfetch=. I find that name overused and misleading (because it isn't written in C). I have made some special personal changes, but the file should be fairly easy to understand (it was for me at least).
